@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+body{
+    padding-top: 10%;
+    background-color: brown;
+}
+.padre{
+    background-color: cadetblue;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+
+/*para una futura animacion la idea es que haga como si saliera de la
+.padre:hover{
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+}
+pantalla y tuviese una sombra*/
+
+.hijos{
+    height: 35px;
+    width: 100px;
+    background-color: cyan;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.linksitos{
+    text-decoration: none;
+}
