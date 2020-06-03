@@ -7,21 +7,24 @@
     border-style: initial;
     border-color: initial;
     border-image: initial;
+    font-family: monospace;
 }
 body{
     padding-top: 10%;
-    background-color: brown;
+    background-color: #E8E0D0;
 }
-.padre{
-    background-color: cadetblue;
+.padre-link{
+    background-color: #00A37F;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+    
     box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
     justify-content: flex-end;
-    border-radius: 5px;
     flex-wrap: wrap;
-    align-content: space-around;
+    
+  
 }
 
 /*para una futura animacion la idea es que haga como si saliera de la
@@ -33,11 +36,20 @@ pantalla y tuviese una sombra*/
 .hijos{
     height: 35px;
     width: 100px;
-    background-color: cyan;
+    background-color: #00C7A2;
     margin: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
+    padding-top: 0.5%;
+    border-radius: 5px;
+   
 }
-.linksitos{
+.hijos:hover{
+    background-color: #00FFC2;
+    height: 33px;
+    width: 98px;
+}
+.hijos-padre-link{
     text-decoration: none;
+    color: black;
 }

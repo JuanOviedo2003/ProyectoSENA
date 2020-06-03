@@ -1,0 +1,21 @@
+Paleta 1{
+	color 1: #6CD4E1
+	color 2: #5FBAC5
+	color 3: #17B2C5
+	color 4: #016F90
+	color 5: #005071
+}
+Paleta 2{
+	color 1: #00FFC2
+	color 2: #00DEAB
+	color 3: #00C7A2
+	color 4: #00A37F
+	color 5: #00A36E
+}
+Paleta 3{
+	color 1: #F3A168
+	color 2: #F68739
+	color 3: #EF7A28
+	color 4: #F36E11
+	color 5: #Fb6212
+}
