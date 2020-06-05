@@ -1,55 +1,76 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0px;
-    border-width: 0px;
-    border-style: initial;
-    border-color: initial;
-    border-image: initial;
-    font-family: monospace;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  font-family: monospace;
 }
 body{
-    padding-top: 10%;
-    background-color: #E8E0D0;
+  
+  background-color: #E8E0D0;
 }
 .padre-link{
-    background-color: #00A37F;
-    display: flex;
-
-    /*margin-left: 5%;
-    margin-right: 5%;*/
-    
-    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    
-  
+  background-color: rgb(0, 163, 95);
+  display: flex;
+  box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
-/*para una futura animacion la idea es que haga como si saliera de la
-.padre:hover{
-    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
-}
-pantalla y tuviese una sombra*/
-
 .hijos{
-    height: 35px;
-    width: 100px;
-    background-color: #00C7A2;
-    margin: 5px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    padding-top: 0.5%;
-    border-radius: 5px;
-   
+
+  background-color: #80C469;
+  margin: 5px;
+ 
+  text-align: center;
+  border-radius: 5px;
 }
 .hijos:hover{
-    background-color: #00FFC2;
-    height: 33px;
-    width: 98px;
+  background-color: #A2D184;
+  transform: scale(1.09);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
 }
 .hijos-padre-link{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px 40px;
+}
+.hijos-padre-link:hover{
+  color: black;
+}
+.nick{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px 40px;
+
+}
+/*IMAGENES HEADER*/
+.img{
+  background-color: #294931;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  background-attachment: fixed;
+  grid-gap: 20px
+}
+.headerimg00{
+  width: 175px;
+  margin: 5%;
+  align-items: center;
+}
+.headerimg01{
+  width: 175px;
+   height: 100px;
+  margin: 5%;
+}
+.headerimg02{
+  width: 175px;
+  margin: 5%;
 }
