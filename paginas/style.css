@@ -1,54 +1,23 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  padding: 0px;
-  border-width: 0px;
-  border-style: initial;
-  border-color: initial;
-  border-image: initial;
-  font-family: monospace;
 }
 body{
   
   background-color: #E8E0D0;
 }
-.padre-link{
-  background-color: rgb(0, 163, 95);
+#header{
+  margin: auto;
   display: flex;
-  box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.1);
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.hijos{
-
-  background-color: #80C469;
-  margin: 5px;
- 
-  text-align: center;
-  border-radius: 5px;
-}
-.hijos:hover{
-  background-color: #A2D184;
-  transform: scale(1.09);
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
-}
-.hijos-padre-link{
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  padding: 10px 40px;
-}
-.hijos-padre-link:hover{
-  color: black;
-}
-.nick{
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  padding: 10px 40px;
+  font-family: monospace;
+  width: 720px;
 
 }
+/*listas*/
+ul, ol {
+  list-style: none;
+}
+
 /*IMAGENES HEADER*/
 .img{
   background-color: #294931;
@@ -58,7 +27,8 @@ body{
   justify-content: space-around;
 
   background-attachment: fixed;
-  grid-gap: 20px
+  grid-gap: 20px;
+  
 }
 .headerimg00{
   width: 175px;
