@@ -1,23 +1,35 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 body{
-  
   background-color: #E8E0D0;
 }
-#header{
-  margin: auto;
+.padre-link{
+  background-color: #34623F;
   display: flex;
-  font-family: monospace;
-  width: 720px;
-
+  box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.247);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
-/*listas*/
-ul, ol {
-  list-style: none;
+.nick{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 20px;
 }
-
 /*IMAGENES HEADER*/
 .img{
   background-color: #294931;
@@ -27,11 +39,11 @@ ul, ol {
   justify-content: space-around;
 
   background-attachment: fixed;
-  grid-gap: 20px;
-  
+  grid-gap: 20px
 }
 .headerimg00{
-  width: 175px;
+  width: 180px;
+  height: 175px;
   margin: 5%;
   align-items: center;
 }
@@ -43,4 +55,200 @@ ul, ol {
 .headerimg02{
   width: 175px;
   margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/*Header_BotonQuienesSomos*/
+.dropbtn {
+  background-color: #607744;
+  color: white;
+  padding: 13px 37px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(205, 243, 255);
+  min-width: 160px;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-color: none;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: rgb(216, 216, 216);
+}
+.dropdown-content a:hover{
+  background-color: rgb(177, 177, 177);
+  border-color: none;
+  margin: 3px;
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: none;
+  
+}
+.dropdown:hover .dropbtn {
+  background-color: #90ac51;
+  transform: scale(1.09);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Header_BotonTemario*/
+.dropbtn2{
+  background-color: #607744;
+  color: white;
+  padding: 13px 37px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  border-radius: 7px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.dropdown2{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  background-color:rgb(205, 243, 255);
+  font-size: 16px;
+  font-weight: 300;
+  min-width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content2 a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-color: none;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: rgb(216, 216, 216);
+}
+.dropdown-content2 a:hover{
+  background-color: rgb(177, 177, 177);
+  border-color: none;
+  margin: 3px;
+  border-radius: 5px;
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+  background-color: none;
+  border-radius: 5px;
+}
+.dropdown2:hover .dropbtn2 {
+  background-color: #90ac51;
+  transform: scale(1.09);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Boton_HeaderAcercaDe*/
+.dropbtn3{
+  background-color: #607744;
+  color: white;
+  padding: 13px 37px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  border-radius: 7px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.dropdown3{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content3{
+  display: none;
+  position: absolute;
+  background-color:rgb(205, 243, 255);
+  font-size: 16px;
+  font-weight: 300;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content3 a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-color: none;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: rgb(216, 216, 216);
+}
+.dropdown-content3 a:hover{
+  background-color: rgb(177, 177, 177);
+  border-color: none;
+  margin: 3px;
+  border-radius: 5px;
+}
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+  background-color: none;
+  border-radius: 5px;
+}
+.dropdown3:hover .dropbtn3 {
+  background-color: #90ac51;
+  transform: scale(1.09);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+  color: black;
 }
