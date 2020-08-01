@@ -1,0 +1,8 @@
+Fuentes logo
+ - Primaria: Dancing Script Bold 700
+ - Secundaria: EB garamond Weight italic 667
+Fuentes Pagina
+ - Primaria:
+ - Secundaria:
+Colores Pagina
+ - Color del cuerpo(Body): #DAE0E6 #EDEDED
