@@ -9,15 +9,11 @@
   font-family: "Noto Sans TC", sans-serif;
 }
 body {
-  background-color: rgb(236, 248, 226);
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 3%;
+  background-color: rgb(252, 255, 250);
 }
 /*IMAGENES HEADER*/
 
 .img {
-  background-image: url();
   display: flex;
   margin-bottom: 0;
   flex-wrap: wrap;
@@ -26,56 +22,103 @@ body {
   grid-gap: 20px;
 }
 .headerimg00 {
-  width: 180px;
-  height: 175px;
-  margin: 5%;
+  padding-top: 54px;
+  width: 16%;
+  height: 20%;
   align-items: center;
   border-bottom: 5px solid rgb(255, 255, 255);
 }
 .headerimg01 {
-  width: 175px;
-  height: 100px;
-  margin: 5%;
+  padding-top: 54px;
+  width: 20%;
+  height: 24%;
   border-bottom: 5px solid rgb(255, 255, 255);
 }
 .headerimg02 {
-  width: 175px;
-  margin: 5%;
+  padding-top: 54px;
+  width: 20%;
   border-bottom: 5px solid rgb(255, 255, 255);
-}
-.padre_header {
-  margin-top: 10px;
-  padding: 1%;
-  /*background-image: url(../../imagenes/fondos/fondo.jpg);*/
-  border-bottom: 5px solid rgb(114, 114, 114);
-  background-position: center;
-  background-size: cover;
-  border-radius: 6px;
 }
  /*CUERPO MEDIO DEL INDEX*/
 
 .cuerpo_medio{
   padding-top: 5%;
   display: flex;
+  flex-wrap: wrap;
+  background-color: #80E0A3;
 }
 .uno{
-  width:20%;
+  width: 842px;
   height: 550px;
-  border: 1px solid black;
+  margin-left: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: rgb(250, 250, 250);
+  transition-duration: 2.5s;
+  border-radius: 30px;
+ }
+.title_instrucciones{
+  text-align: center;
+  background-color: rgb(0, 211, 211);
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 6.5px 0px;
+  font-weight: 300;
 }
 .dos{
- width: 64.9%;
- height: 550px;
- border: 1px solid black;
-}
-.tres{
-  width: 15%;
+  width: 30%;
   height: 550px;
-  border: 1px solid black;
+  margin-left: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: rgb(255, 255, 255);
+  transition-duration: 2s;
+  border-radius: 10px;
 }
+
+.tres{
+  width: 95.5%;
+  height: 165px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*FINAL DE LA PAGINA INDEX*/
 
 .cuerpo_fin{
-  height: 100px;
-  border: 1px solid black;
+  display: flex;
+  width: 95.5%;
+  height: 165px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: rgb(46, 34, 0);
+  justify-content: center;
+  align-items: center;
+}
+
+.texto_instrucciones{
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 6.5px 0px;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media(min-width: 1920px) {
+  .dos{
+    width: 49.1%;
+    height: 550px;
+    margin-left: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    transition-duration: 2s;
+    border-radius: 10px;
+  }
+  
 }
