@@ -1,3 +1,116 @@
 .espaciador{
     margin-bottom: 25.05px;
 }
+.titulo_objetivos{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+/*Primer parrafo*/
+.padre_medio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.sub_titulo{
+    background-color: #80E0A3;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 30px;
+    background-image: url("../../imagenes/fondo.png");
+
+}
+.mucho_texto{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+.text_sub_titulo{
+    padding: 30px 10px;
+}
+
+/*Segundo parrafo*/
+.padre_medio_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.sub_titulo_2{
+    background-color: #80E0A3;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 10px;
+    background-image: url("../../imagenes/fondo.png");
+
+}
+.mucho_texto_2{
+    background-color: rgb(252, 252, 252);
+    width: 70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+.text_sub_titulo_2{
+    padding: 20px 10px;
+}
+/*Tercer parrafo*/
+.padre_medio_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.sub_titulo_3{
+    background-color: #80E0A3;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 10px;
+    background-image: url("../../imagenes/fondo.png");
+
+}
+.mucho_texto_3{
+    background-color: rgb(252, 252, 252);
+    width: 70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+.text_sub_titulo_3{
+    padding: 20px 10px;
+}
+/*Cuarto parrafo*/
+.padre_medio_4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.sub_titulo_4{
+    background-color: #80E0A3;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 10px;
+    background-image: url("../../imagenes/fondo.png");
+
+}
+.mucho_texto_4{
+    background-color: rgb(252, 252, 252);
+    width: 70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+.text_sub_titulo_4{
+    padding: 20px 10px;
+}

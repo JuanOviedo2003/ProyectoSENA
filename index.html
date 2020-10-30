@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--Favicon-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link  rel = "apple-touch-icon"  tallas = "57x57"  href = "./paginas/objetivoscss/ima/apple-icon-57x57.png" > 
         <link  rel = "apple-touch-icon"  tallas = "60x60"  href = "./paginas/objetivoscss/ima/ apple -icon-60x60.png " > 
@@ -19,7 +20,8 @@
         <link  rel = " manifest " href = "/manifest.json" > 
         <meta  name ="msapplication-TileColor"  content = "#ffffff" > 
         <meta  name = "msapplication-TileImage"  content = "/ms-icon-144x144.png" > 
-<meta  name = "theme-color"  content = "#ffffff" >
+        <meta  name = "theme-color"  content = "#ffffff" >
+    <!--Favicon-->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./paginas/indexcss/style.css">
@@ -42,7 +44,7 @@
         <a href="./index.html" class="nick">DEKA</a>
         <div class="dropdown">
             <div class="tooltip"><button class="dropbtn">Proposito</button>
-            <p class="tooltiptext">Hola</p>
+            <p class="tooltiptext">Aquí encontraras el porqué de este proyecto</p>
         </div>
                 <div class="dropdown-content">
                     <a href="./paginas/objetivos.html">Objetivos</a>
@@ -51,12 +53,10 @@
 
         <div class="dropdown2">
             <div class="tooltip"><button class="dropbtn2">Temario</button>
-            <p class="tooltiptext">Hola</p>
+            <p class="tooltiptext">Aquí encontraras los temas que tratamos</p>
         </div>
                 <div class="dropdown-content2">
                     <a href="#">Consumo Alimenticio Inadecuado</a>
-                    <a href="#">Relaciones Interpersonales</a>
-                    <a href="#">Desempleo</a>
                     <a href="#">Factores Medicos</a>
                     <a href="#">Convivencia</a>
             </div>
@@ -64,7 +64,7 @@
 
         <div class="dropdown3">
             <div class="tooltip"><button class="dropbtn3">Acerca</button>
-            <p class="tooltiptext">Hola</p>
+            <p class="tooltiptext">Aquí encontraras informacion de los creadores</p>
         </div>
                 <div class="dropdown-content3">
                     <a href="#">Contacto</a>
@@ -74,22 +74,20 @@
     </div>
     <header class="padre_header">
         <p class="img">
-            <img class="headerimg00" src="./imagenes/escudo-sena.png">
+            <img class="headerimg00" src="./imagenes/logo/escudo-sena.png">
             <img class="headerimg01" src="./imagenes/logo/logo-deka-prueba.png">
             <img class="headerimg02" src="./imagenes/logo/logo-CM-transp (1).png">
         </p>
     </header> 
     <div class="cuerpo_medio">
-        
+        <!--Los src no he podido ponerlos en ruta relativa-->
         <div class="uno">
-            <iframe src="animate0.html" width="842" height="550px"></iframe>
+            <iframe src="./archivos/animaciones/publish/web/animate0.html" width="842" height="550px"></iframe>
         </div>
         <div class="dos">
-            <p class="title_instrucciones">Instrucciones</p>
-            <p class="texto_instrucciones">Tenemos en la parte superior un menu en el cual puedes
-            informarte sobre nuestro proposito como proyecto, 
-            el temario que manejamos y algunos datos sobre los fundadores 
-            de este proyecto</p>
+            <div class="">
+                <iframe src="./archivos/animaciones/animacion-nani.html" width="410" height="550px"></iframe>
+            </div>
         </div>
         <div class="tres">
             <div clas="tres_ptuno">
@@ -97,8 +95,9 @@
             </div>
         </div>
         <div class="cuerpo_fin">
-            <p class="echenojoda">Deka 2020</p>
+            <p class="text_fin">Deka 2020</p>
           </div> 
     </div>
+
 </body>
 </html>
