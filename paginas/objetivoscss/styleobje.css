@@ -1,11 +1,16 @@
 .espaciador{
     margin-bottom: 25.05px;
 }
+
 .titulo_objetivos{
+    
     margin-top: 50px;
     text-align: center;
     font-weight: 700;
     margin-bottom: 25px;
+    animation: 0.6s;
+    size: 100%;
+    zoom: 0% 100%;
 }
 
 

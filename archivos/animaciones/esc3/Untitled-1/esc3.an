@@ -1,0 +1,104 @@
+
+{
+
+	"HTMLFileName":"esc3.html",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Precargador\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Nivel inferior\": {\
+   \"timelines\": {\
+\
+   }},\
+\"sprite-animacion-escena-3\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }}\
+}",
+	"symbol_sprite-animacion-escena-3":{
+		"element_${esc32}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"true",
+			"timelineColor":"0x2f73ad"},
+		"element_${Ellipse}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${jardin2}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"hGuides":"-2px",
+		"element_${sala-de-espera2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"true",
+			"timelineColor":"0xceaef4"},
+		"vGuides":"496px,-1px"},
+	"pref__general__FilterNonAnimatedElements":"false",
+	"viewStartMs":"61683.364443684",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"StageZoomFactor":"10",
+	"symbol_stage":{
+		"element_${jardin}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
+			"timelineColor":"0x008dc8"},
+		"dummyStageParentWidth":"492px",
+		"element_${sala-de-espera}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"false",
+			"timelineColor":"0x63599f"},
+		"dummyStageParentHeight":"319px",
+		"element_${Rectangle}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"defaultStageParentHeight":"319px",
+		"element_${sprite-animacion-escena-3}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"true",
+			"timelineColor":"0x00bda4"},
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"492px",
+		"hGuides":"0px,319px",
+		"element_${esc3}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"vGuides":"0px,492px"},
+	"TransitionIdCounter":"435",
+	"CompZoomFactor":"100",
+	"viewStartY":"0",
+	"pixelsPerMs":"0.16992778425597",
+	"expanded:images/jardin.jpg":"nil",
+	"pref__general__GenerateSmoothTransitions":"false",
+	"usedBOM":"false",
+	"expanded:images/esc3.png":"nil",
+	"stage-Default Timeline_playhead_ms":"64534",
+	"expanded:images/sala-de-espera.jpg":"nil",
+	"sprite-animacion-escena-3-Default Timeline_playhead_ms":"0",
+	"nextElementColorIndex":"12"}

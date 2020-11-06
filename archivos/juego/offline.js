@@ -1,0 +1,30 @@
+﻿{
+	"version": 1604580655,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/fondo-sheet0.png",
+		"images/personaje-sheet0.png",
+		"images/normal-sheet0.png",
+		"images/movilh-sheet0.png",
+		"images/desvanecedor-sheet0.png",
+		"images/meta-sheet0.png",
+		"images/movilv-sheet0.png",
+		"images/desvanecesorr-sheet0.png",
+		"images/moneda-sheet0.png",
+		"images/moneda-sheet1.png",
+		"images/papas-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/sprite2-sheet0.png",
+		"images/bn-sheet0.png",
+		"images/bv-sheet0.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}

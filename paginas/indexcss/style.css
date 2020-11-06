@@ -80,20 +80,19 @@ body {
 }
 
 /*FINAL DE LA PAGINA INDEX*/
-
+.texto_fin{
+  color: aliceblue;
+}
 .cuerpo_fin{
   display: flex;
   width: 95.5%;
+  height: 165px;
+  margin: 20px 2.5%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   background-color: rgb(46, 34, 0);
   justify-content: center;
   align-items: center;
 }
-.texto_fin{
-  color: aliceblue;
-  padding: 20px 40px;
-}
-
 .texto_instrucciones{
   margin: 5px 5px;
   border-radius: 5px;
