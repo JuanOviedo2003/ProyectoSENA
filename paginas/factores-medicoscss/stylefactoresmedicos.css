@@ -12,4 +12,164 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: rgb(255, 255, 255);
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+hr{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 6px;
+    background-color: black;
+}
+
+
+
+
+.FT-padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+.FT00{
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: inline;
+    border-radius: 7px;
+    height: 100%;
+    width: 90%;
+}
+.Fsubt-00{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 50% 50%;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+.FT01{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.Fsubt-01{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-01{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+
+
+.FT02{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.Fsubt-02{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-02{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+.FT03{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.Fsubt-03{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-03{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+
+.FT04{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.Fsubt-04{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-04{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
 }

@@ -1,35 +1,20 @@
 .espaciador{
     margin-bottom: 25.05px;
 }
-.animacion02{
-    display: flex;
-    justify-content: center;
-}
-.sub-div-animacion02{
-    display: inline-block;
-    width: 492px;
-    height: 319px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: rgb(255, 255, 255);
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
-hr{
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    height: 6px;
-    background-color: black;
+.titulo_consumo_alimenticio_inadecuado{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+    animation: 0.6s;
+    size: 100%;
+    zoom: 0% 100%;
 }
 
 
 
-
-
-
-/*contenido texto*/
-.T-padre{
+.CT-padre{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,127 +24,17 @@ hr{
 
 
 
-
-
-
-.T01{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-radius: 7px;
-    display: inline-block;
-    margin-top: 60px;
-}
-.subt-01{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 5%;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-
-}
-.texto-01{
-    text-align: center;
-    padding: 30px 6%;
-    margin: 0px 2.5%;
-}
-
-
-
-
-
-
-.T02{
+/*contenido texto*/
+.CT01{
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: inline-block;
     border-radius: 7px;
-    margin-top: 80px;
-}
-.subt-02{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 50% 50%;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-
-}
-.texto-02{
-    text-align: center;
-    padding: 30px 6%;
-    margin: 0px 2.5%;
-}
-
-
-
-
-.T03{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: inline-block;
-    border-radius: 7px;
-    margin: 30px 15px;
-}
-.subt-03{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 50% 50%;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-
-}
-.texto-03{
-    text-align: center;
-    padding: 30px 6%;
-    margin: 0px 2.5%;
-}
-
-
-
-
-.T04{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: inline-block;
-    border-radius: 7px;
-    margin: 30px 15px;
-}
-.subt-04{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 50% 50%;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-
-}
-.texto-04{
-    text-align: center;
-    padding: 30px 6%;
-    margin: 0px 2.5%;
-}
-
-
-
-
-.T05{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: inline-block;
-    border-radius: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 80px;
 }
-.subt-05{
+.Csubt-01{
     text-align: center;
     padding: 10px;
     color: rgb(255, 255, 255);
@@ -170,105 +45,24 @@ hr{
     border-top-right-radius: 7px;
 
 }
-.texto-05{
+.Ctexto-01{
     text-align: center;
-    padding: 30px 6%;
+    padding: 10px 6%;
     margin: 0px 2.5%;
 }
 
 
 
-
-
-
-
-
-
-
-.T06{
-    margin-top: 15px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: inline;
-    border-radius: 7px;
-    height: 100%;
-    width: 90%;
-}
-.subt-06{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 50% 50%;
-    border-radius: 7px;
-}
-
-
-
-
-.T07{
+.CT02{
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: inline-block;
     border-radius: 7px;
-    margin: 30px 15px;
-}
-.subt-07{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 50% 50%;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-
-}
-.texto-07{
-    text-align: center;
-    padding: 30px 6%;
-    margin: 0px 2.5%;
-}
-
-
-
-
-.T08{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: inline-block;
-    border-radius: 7px;
-    margin: 30px 15px;
-}
-.subt-08{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 50% 50%;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-
-}
-.texto-08{
-    text-align: center;
-    padding: 30px 6%;
-    margin: 0px 2.5%;
-}
-
-
-
-
-.T09{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: inline-block;
-    border-radius: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 30px;
 }
-.subt-09{
+.Csubt-02{
     text-align: center;
     padding: 10px;
     color: rgb(255, 255, 255);
@@ -279,9 +73,120 @@ hr{
     border-top-right-radius: 7px;
 
 }
-.texto-09{
+.Ctexto-02{
     text-align: center;
-    padding: 30px 6%;
+    padding: 10px 6%;
     margin: 0px 2.5%;
 }
 
+
+
+.CT03{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: inline-block;
+    border-radius: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.Csubt-03{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 50% 50%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ctexto-03{
+    text-align: center;
+    padding: 10px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+.CT04{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: inline-block;
+    border-radius: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.Csubt-04{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 50% 50%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ctexto-04{
+    text-align: center;
+    padding: 10px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+.CT05{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: inline-block;
+    border-radius: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.Csubt-05{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 50% 50%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ctexto-05{
+    text-align: center;
+    padding: 10px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+.CT06{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: inline-block;
+    border-radius: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.Csubt-06{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 50% 50%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ctexto-06{
+    text-align: center;
+    padding: 10px 6%;
+    margin: 0px 2.5%;
+}

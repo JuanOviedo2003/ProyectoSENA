@@ -93,13 +93,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.texto_instrucciones{
-  margin: 5px 5px;
-  border-radius: 5px;
-  padding: 6.5px 0px;
-  text-align: center;
-  font-weight: 400;
-}
 
 @media(min-width: 1920px) {
   .dos{
