@@ -6,11 +6,38 @@
     margin-top: 50px;
     text-align: center;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     animation: 0.6s;
     size: 100%;
     zoom: 0% 100%;
 }
+
+
+.animacion02{
+    display: flex;
+    justify-content: center;
+}
+.sub-div-animacion02{
+    display: inline-block;
+    width: 492px;
+    height: 319px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 6px;
+    background-color: rgb(55, 163, 51);
+}
+
+
+
+
 
 
 
@@ -30,9 +57,10 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: inline-block;
     border-radius: 7px;
+    margin-top: 40px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .Csubt-01{
     text-align: center;

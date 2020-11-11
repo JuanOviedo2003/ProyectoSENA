@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2mwvqjn8gx76</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="fondo" sid="205682870544716">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="205144879178737" speed="5">
+                    <frame duration="1" hotspotX="0.50046" hotspotY="0.50069" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\121799212_1611614449018107_2076097682263011711_n.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="personaje" sid="100170955349325">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="VP" sid="167257399085178" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="288596347687051">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="424419583376132">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Principal" pingpong="0" repeatcount="1" repeatto="0" sid="978827323390157" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.5" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\1.png" />
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.500952" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\2.png" />
+                    <frame duration="1" hotspotX="0.502326" hotspotY="0.5" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500952" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="285485969249676">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="normal" sid="248277207524214">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="270660517878913">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467432646530993" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508772" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\lch.png">
+                        <collision-poly>
+                            <point x="0.0764706" y="0.22807" />
+                            <point x="0.5" y="0.0526316" />
+                            <point x="0.929412" y="0.210526" />
+                            <point x="0.988235" y="0.491228" />
+                            <point x="0.923529" y="0.77193" />
+                            <point x="0.5" y="0.877193" />
+                            <point x="0.1" y="0.701754" />
+                            <point x="0.00588235" y="0.491228" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="movilH" sid="330022646212305">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="523281128953879">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="698064906336418">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="957735963385307" speed="5">
+                    <frame duration="1" hotspotX="0.501706" hotspotY="0.507042" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\ep.png">
+                        <collision-poly>
+                            <point x="0.0819113" y="0.338028" />
+                            <point x="0.498294" y="0.309859" />
+                            <point x="0.948805" y="0.211268" />
+                            <point x="0.996587" y="0.492958" />
+                            <point x="0.938567" y="0.746479" />
+                            <point x="0.498294" y="0.760563" />
+                            <point x="0.0648464" y="0.732394" />
+                            <point x="0" y="0.492958" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="desvanecedor" sid="870771995416865">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Timer" sid="930039244698080">
+                    <behavior id="Timer" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="397915177112956">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="618426266643299" speed="5">
+                    <frame duration="1" hotspotX="0.501661" hotspotY="0.5" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\hd.png">
+                        <collision-poly>
+                            <point x="0.0299003" y="0.0882353" />
+                            <point x="0.498339" y="0.127451" />
+                            <point x="0.9701" y="0.0882353" />
+                            <point x="0.940199" y="0.5" />
+                            <point x="0.910299" y="0.735294" />
+                            <point x="0.498339" y="0.990196" />
+                            <point x="0.106312" y="0.686275" />
+                            <point x="0.0930233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="meta" sid="487460386951431">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="249310871888556">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="394587086884660" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="movilV" sid="675604748962785">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="282839225781903">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="534214331733377">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="310599623013844" speed="5">
+                    <frame duration="1" hotspotX="0.502439" hotspotY="0.502242" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\mz.png">
+                        <collision-poly>
+                            <point x="0.0682927" y="0.0627803" />
+                            <point x="0.497561" y="0.0313901" />
+                            <point x="0.804878" y="0.179372" />
+                            <point x="0.990244" y="0.497758" />
+                            <point x="0.902439" y="0.910314" />
+                            <point x="0.497561" y="0.973094" />
+                            <point x="0.214634" y="0.802691" />
+                            <point x="0.0878049" y="0.497758" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="desvanecesorR" sid="353815832539904">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="780648357813747">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769976037843126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\hb.png">
+                        <collision-poly>
+                            <point x="0.0784884" y="0.139175" />
+                            <point x="0.5" y="0.00515464" />
+                            <point x="0.877907" y="0.216495" />
+                            <point x="0.997093" y="0.5" />
+                            <point x="0.950581" y="0.912371" />
+                            <point x="0.5" y="0.989691" />
+                            <point x="0.0552326" y="0.902062" />
+                            <point x="0.00290698" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moneda" sid="373578811668622">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="582027609022907" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\m.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502703" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\m2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="508840230617437">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="T1" sid="650719261896532">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="papas" sid="195343292956492">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="164416583471173">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640129503046872" speed="5">
+                    <frame duration="1" hotspotX="0.50211" hotspotY="0.50303" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\pp.png">
+                        <collision-poly>
+                            <point x="0.230303" y="0.159664" />
+                            <point x="0.49697" y="0.012605" />
+                            <point x="0.775758" y="0.155462" />
+                            <point x="0.969697" y="0.5" />
+                            <point x="0.89697" y="0.928571" />
+                            <point x="0.49697" y="0.978992" />
+                            <point x="0.157576" y="0.890756" />
+                            <point x="0.0727273" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="114876303372663">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="138892403797311" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\f.png">
+                        <collision-poly>
+                            <point x="0.0926966" y="0.246269" />
+                            <point x="0.5" y="0.00746269" />
+                            <point x="0.994382" y="0.5" />
+                            <point x="0.5" y="0.985075" />
+                            <point x="0.0955056" y="0.746269" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="T3" sid="526356356744705">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="B1" sid="545715798951357">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="B2" sid="470710733077729">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite2" sid="256693990541430">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615035940499697" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BN" sid="878471339634625">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="941300864941185" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\barraSaludRoja.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BV" sid="704022023415972">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460149565923070" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\HP\Downloads\JUEGODEKA\IMAGENES\barraSaludVerde.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="2" />
+        <global-instance type="Mouse" uid="18" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

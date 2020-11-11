@@ -16,12 +16,30 @@
 }
 
 
+
+
+.titulo_factores_medicos{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    animation: 0.6s;
+    size: 100%;
+    zoom: 0% 100%;
+}
+
+
+
+
+
+
+
 hr{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
     height: 6px;
-    background-color: black;
+    background-color: rgb(55, 163, 51);
 }
 
 
@@ -38,27 +56,6 @@ hr{
 
 
 
-.FT00{
-    margin-top: 30px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: inline;
-    border-radius: 7px;
-    height: 100%;
-    width: 90%;
-}
-.Fsubt-00{
-    text-align: center;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #80E0A3;
-    background-image: url("../../imagenes/fondo.png");
-    background-position: 50% 50%;
-    border-radius: 7px;
-}
-
-
-
 
 
 
@@ -68,7 +65,7 @@ hr{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 7px;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .Fsubt-01{
     text-align: center;
@@ -169,6 +166,148 @@ hr{
 
 }
 .Ftexto-04{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+
+.FT05{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.Fsubt-05{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-05{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+.FT06{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.Fsubt-06{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-06{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+.FT07{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.Fsubt-07{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-07{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+.FT08{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.Fsubt-08{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-08{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+.FT09{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.Fsubt-09{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ftexto-09{
     text-align: center;
     padding: 30px 6%;
     margin: 0px 2.5%;

@@ -1,0 +1,85 @@
+.espaciador{
+    margin-bottom: 25.05px;
+}
+
+
+.titulo_Mision_Vision{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    animation: 0.6s;
+    size: 100%;
+    zoom: 0% 100%;
+}
+
+
+
+
+
+.MT-padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+.MT01{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.Msubt-01{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Mtexto-01{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+
+
+
+
+
+.MT02{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.Msubt-02{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Mtexto-02{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}

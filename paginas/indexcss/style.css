@@ -11,6 +11,10 @@
 body {
   background-color: rgb(252, 255, 250);
 }
+
+
+
+
 /*IMAGENES HEADER*/
 
 .img {
@@ -72,6 +76,7 @@ body {
   height: 165px;
   margin-top: 5%;
   margin-left: 1.77%;
+  margin-bottom: 15px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   background-color: rgb(255, 255, 255);
   display: flex;

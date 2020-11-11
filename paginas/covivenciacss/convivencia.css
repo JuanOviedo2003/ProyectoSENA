@@ -1,0 +1,83 @@
+.espaciador{
+    margin-bottom: 25.05px;
+}
+
+
+.titulo_convivencia{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    animation: 0.6s;
+    size: 100%;
+    zoom: 0% 100%;
+}
+
+
+
+
+.animacion04{
+    display: flex;
+    justify-content: center;
+}
+.sub-div-animacion04{
+    display: inline-block;
+    width: 492px;
+    height: 319px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 6px;
+    background-color: rgb(55, 163, 51);
+}
+
+
+
+
+
+.CT-padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+.CT01{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.Csubt-01{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #80E0A3;
+    background-image: url("../../imagenes/fondo.png");
+    background-position: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.Ctexto-01{
+    text-align: center;
+    padding: 30px 6%;
+    margin: 0px 2.5%;
+}
+

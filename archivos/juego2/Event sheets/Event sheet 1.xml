@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="Puntuacion" sid="696813130686518" static="0" type="number">0</variable>
+        <variable constant="0" name="TF" sid="705120865157104" static="0" type="number">0</variable>
+        <variable constant="0" name="T0" sid="105404507579389" static="0" type="number">0</variable>
+        <event-block sid="699786949555124">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="181558451331025" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="129352568788440" type="T1">
+                    <param id="0" name="Text">&quot;Puntuacion:&quot;  &amp;   Puntuacion &amp; &quot;/6.&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="772765802662354">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="742326076637964" type="System">
+                            <param id="0" name="Interval (seconds)">0.7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-8" name="Set angle" sid="997663279795447" type="papas">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="509674390651551" type="System">
+                            <param id="0" name="Object to create">papas</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">random(1,1712)</param>
+                            <param id="3" name="Y">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="980744054650003">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="799473108690704" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="593536841293198" type="personaje">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="552345342307516" type="movilH">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="661218081615352" type="movilV">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="2" name="Stop" sid="930546430826516" type="moneda" />
+                <action id="2" name="Stop" sid="656129016377419" type="personaje" />
+            </actions>
+        </event-block>
+        <event-block sid="777149843403649">
+            <conditions>
+                <condition id="0" name="On clicked" sid="982885776273147" type="B1" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="656301357757969" type="System">
+                    <param id="0" name="Variable">T0</param>
+                    <param id="1" name="Value">time</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="496953192336751" type="personaje">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="536509064444141" type="personaje">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="852855028725810" type="movilH">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="272552459162968" type="movilV">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="3" name="Start" sid="318079906826569" type="moneda">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="3" name="Start" sid="932081365080442" type="personaje">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="2" name="Set visible" sid="313092044891906" type="B1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="765675302300698" type="System">
+                    <param id="0" name="Variable">Puntuacion</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="980354987253373">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="181606247111106" type="personaje">
+                    <param id="0" name="Object">papas</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="300925166324166" type="papas" />
+                <action id="-10" name="Set value" sid="950680760199754" type="personaje">
+                    <param id="0" name="Instance variable">VP</param>
+                    <param id="1" name="Value">personaje.VP - 10</param>
+                </action>
+                <action id="-5" name="Set width" sid="768173756763491" type="BV">
+                    <param id="0" name="Width">personaje.VP</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="656395999871026">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="360488558722306" type="personaje">
+                            <param id="0" name="Instance variable">VP</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="439634929253709" type="personaje" />
+                        <action id="-26" name="Restart layout" sid="768368411214019" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="920462867019211">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="135910449941903" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="944448344422408" type="personaje">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="953663427490617">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="283578335849884" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="591037742226446" type="personaje">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="989323969097023">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="100423794078673" type="personaje">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="429178212274039" type="System">
+                    <param id="0" name="Variable">Puntuacion</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="418664183709825" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="177541222650122">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="541875650502358" type="personaje">
+                    <param id="0" name="Object">desvanecedor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="618136037322633" type="System">
+                    <param id="0" name="Seconds">1.2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="209550459313744" type="desvanecedor" />
+            </actions>
+        </event-block>
+        <event-block sid="164682371233815">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="529217570407588" type="personaje">
+                    <param id="0" name="Object">desvanecesorR</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="488114682589774" type="System">
+                    <param id="0" name="Seconds">0.4</param>
+                </action>
+                <action id="-9" name="Destroy" sid="809361658017667" type="desvanecesorR" />
+            </actions>
+        </event-block>
+        <event-block sid="865800513984650">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="516175706110971" type="personaje">
+                    <param id="0" name="Object">meta</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="484567206270577" type="System">
+                    <param id="0" name="Variable">TF</param>
+                    <param id="1" name="Value">time</param>
+                </action>
+                <action id="0" name="Set text" sid="376299771674210" type="T3">
+                    <param id="0" name="Text">&quot;Tiempo:&quot;&amp; round (TF-T0)&amp;&quot;segundos.&quot;</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="253360411223060" type="personaje">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="633849200831087" type="movilH">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="717345356265895" type="movilV">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="2" name="Stop" sid="954115856543915" type="moneda" />
+                <action id="2" name="Stop" sid="142887528905904" type="personaje" />
+                <action id="2" name="Set visible" sid="733696404840655" type="B2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-24" name="Stop loop" sid="205013350065837" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="901328625192037">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="964707423389955" type="personaje">
+                    <param id="0" name="Object">moneda</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="228837681601749" type="moneda" />
+                <action id="-10" name="Add to" sid="727605402123868" type="System">
+                    <param id="0" name="Variable">Puntuacion</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="256454670334272">
+            <conditions>
+                <condition id="0" name="On clicked" sid="949890869382772" type="B2" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="454724237476101" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
